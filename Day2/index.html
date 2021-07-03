@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Letter</title>
+    <!--Internal CSS-->
+    <style>
+      div{
+        border: black; border-width: 1px; border-style: outset;
+        background-color: burlywood;
+        }
+    </style>
   </head>
   <body>
-    <h1>Permission Letter</h1>
+    
+    
+    <!--Inline CSS-->
+    <h1 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder;">Permission Letter</h1>
+    <div>
     <p>
       Reeta <br />
       12th street <br />
@@ -20,7 +32,8 @@
       DSU <br />Hosur Road,Bangalore <br />
       560068 <br />
     </p>
-    <p>Subject: Seeking permission for conducting 30 days Devsnest bootcamp</p>
+    <!--Linked by external CSS-->
+    <p id="C1">Subject: Seeking permission for conducting 30 days Devsnest bootcamp</p>
     <p>Respected Sir,</p>
 
     <p>
@@ -35,5 +48,6 @@
       Yours sincerely, <br />
       Reeta <br />
     </p>
+  </div>
   </body>
 </html>
