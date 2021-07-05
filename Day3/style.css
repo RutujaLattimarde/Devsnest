@@ -1,0 +1,27 @@
+.first {
+  border-width: 1px;
+  border-style: outset;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.column {
+  border-right: 1px;
+  float: left;
+  width: 50%;
+}
+.column1 {
+  margin-left: 50px;
+}
+.name {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: bisque;
+}
+.skills {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
