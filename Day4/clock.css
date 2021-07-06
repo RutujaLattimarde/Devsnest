@@ -1,0 +1,56 @@
+#whole {
+  position: fixed;
+  top: 50px;
+  bottom: 20px;
+  left: 150px;
+}
+
+.outer {
+  background-color: red;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border: 4px silver solid;
+}
+
+.inner {
+  background-color: white;
+  border-radius: 50%;
+  border: 6px silver solid;
+  position: absolute;
+  top: 65px;
+  left: 65px;
+  height: 350px;
+  width: 350px;
+}
+.minutehand {
+  height: 40%;
+  width: 1%;
+  background-color: black;
+  position: absolute;
+  left: 49%;
+  top: 10%;
+  transform-origin: 50% 100%;
+  transform: rotate(130deg);
+}
+.hourhand {
+  height: 20%;
+  width: 1%;
+  background-color: black;
+  position: absolute;
+  left: 48.75%;
+  top: 30%;
+  transform-origin: 50% 100%;
+  transform: rotate(30deg);
+}
+.secondshand {
+  height: 45%;
+  width: 0.5%;
+  background-color: black;
+  position: absolute;
+  left: 49.5%;
+  top: 14%;
+  transform-origin: 50% 100%;
+  transform: rotate(360deg);
+}
