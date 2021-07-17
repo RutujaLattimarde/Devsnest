@@ -1,0 +1,41 @@
+body {
+  background-color: #e44032;
+}
+h2 {
+  color: white;
+  font-size: 40px;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px 5px;
+}
+
+.seat-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seats-occupied {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.seats-remaining {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.seat {
+  height: auto;
+  width: auto;
+  background-color: #99e28c;
+  border: 1px solid white;
+}
