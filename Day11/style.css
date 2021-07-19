@@ -1,17 +1,3 @@
-/* .full {
-  background-color: rgb(235, 193, 201);
-  border-width: 1px;
-  border-style: outset;
-  margin-left: 350px;
-  margin-right: 350px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  border-radius: 25px;
-}
-#heading {
-  text-align: center;
-} */
-
 body {
   background-color: #413d3d;
 }
@@ -22,16 +8,18 @@ body {
   margin: 0 auto;
   background-color: #fff;
   padding: 10px 50px 50px 50px;
-  border: 2px solid #d39a9a;
+  border: 2px solid #d36161;
+  border-radius: 25px;
 }
 
 .grid h1 {
   font-family: "sans-serif";
-  background-color: #01bbff;
+  background-color: #e098bc;
   font-size: 60px;
   text-align: center;
   color: #ffffff;
   padding: 2px 0px;
+  border-radius: 25px;
 }
 
 #score {
@@ -54,13 +42,14 @@ body {
 #btn1,
 #btn2,
 #btn3 {
-  background-color: #01bbff;
+  background-color: #e098bc;
   width: 250px;
   font-size: 20px;
   color: #fff;
   border: 1px solid #1d3c6a;
   margin: 10px 40px 10px 0px;
   padding: 10px 10px;
+  border-radius: 25px;
 }
 
 #btn0:hover,
@@ -68,7 +57,7 @@ body {
 #btn2:hover,
 #btn3:hover {
   cursor: pointer;
-  background-color: #01bbff;
+  background-color: #cc01ff;
 }
 
 #btn0:focus,
